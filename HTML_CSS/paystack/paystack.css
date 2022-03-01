@@ -1,0 +1,189 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.top-header{
+    display: flex;
+    background-color: rgb(7, 39, 65);
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 1-x;
+    font-size: smaller;
+    
+}
+.top-header h4{
+    margin: 0;
+    padding: 0 5px; 
+}
+.introduction-section{
+    background-image: url(/paystack/assets/Paystackbackgound.png);
+    height: 42em;
+    
+}
+.intro-top-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 5em;
+    padding-bottom: 0;
+}
+.paystack{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35%;
+    margin-left: 34px  ;
+    font-size: large;
+
+}
+
+.why-paystack{
+    display: flex;
+}
+.why-paystack img{
+    padding-top: 27px;
+
+}
+.learn{
+    display: flex
+
+}
+.learn img{
+    padding-top: 27px;
+}
+.developer-signup{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35%;
+    margin-top: 0;
+    font-size: large;
+}
+.developer{
+    display: flex;
+
+}
+.developer img{
+    padding-top: 27px;
+}
+.support{
+    display: flex;
+}
+.support img{
+    padding-top: 27px;
+}
+.developer-signup button{
+    width: 11em;
+    box-shadow: none;
+    background-color: green;
+    color: white;
+    height: 40px;
+    font-size: smaller;
+    border-radius: 5px;
+    border: none;
+}
+.introduction-header{
+    width: 40%;
+    height: 14em;
+    margin: 10em;
+    margin-top: 0;
+    padding-top: 0;
+}
+.introduction-header h1{
+    font-size: 45px;
+
+}
+.create-contact{
+    display: flex;
+    align-items: center;
+}
+.create-contact h4{
+    color: green;
+
+}
+.introduction-header button{
+    width: 13em;
+    box-shadow: none;
+    background-color: green;
+    color: white;
+    height: 50px;
+    font-size: medium;
+    border-radius: 5px;
+    border: none;
+    margin-right: 15px;
+    
+}
+.intro-sponsor{
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+.sponsors{
+    margin-left: 10em;
+    width: 35%;
+}
+.sponsor-logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 0px;
+    
+    
+
+}
+.sponsor-speech{
+    margin-top: 20px;
+    margin-right: 12em;
+    line-height: 5px;
+}
+
+.sponsor-speech h3{
+    font-size: medium;
+    font-weight: normal;
+}
+.sponsor-speech p{
+   padding-left: 47px;
+}
+.dominos-logo{
+    display: flex;
+    align-items: center;
+    
+}
+.sponsor-speech img{
+    position: absolute;
+    right: 10%;
+    bottom: 6%;
+
+}
+.dominos-logo h3{
+    font-size: x-large;
+
+}
+.axa-logo{
+    display: flex;
+    align-items: center;
+    
+}
+.axa-logo img{
+    padding-right: 5px;
+
+}
+.gif-delight-section{
+    display: flex;
+}
+.payment{
+    display: flex;
+    justify-content: space-between;
+}
+.simple{
+    margin: 10em;
+    line-height: 25px;
+}
+.simple h1{
+    font-size: 40px;
+}
+.simple p{
+    font-size: large;
+}

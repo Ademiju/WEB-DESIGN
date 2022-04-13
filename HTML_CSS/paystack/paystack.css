@@ -130,13 +130,16 @@
     justify-content: space-between;
     height: 0px;
     
-    
-
 }
 .sponsor-speech{
+    display: flex;
+    align-items: center;
     margin-top: 20px;
     margin-right: 12em;
     line-height: 5px;
+}
+.speech-header{
+   margin-right: 10px;
 }
 
 .sponsor-speech h3{
@@ -144,19 +147,14 @@
     font-weight: normal;
 }
 .sponsor-speech p{
-   padding-left: 47px;
+   padding-left: 52px;
 }
 .dominos-logo{
     display: flex;
     align-items: center;
     
 }
-.sponsor-speech img{
-    position: absolute;
-    right: 10%;
-    bottom: 6%;
 
-}
 .dominos-logo h3{
     font-size: x-large;
 
@@ -172,13 +170,39 @@
 }
 .gif-delight-section{
     display: flex;
+    
+}
+.gif{
+    margin-left: 10em;
+    margin-top: 8em;
+}
+.delight{
+    margin-left: 4em;
+    width: 33%;
+    font-size: x-large;
+    
+}
+.delight h2{
+    margin-top: 3em;
+    font-size: 33px;
+        
+}
+.delight p{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.delight h4{
+    font-size: medium;
+    font-weight: lighter;
 }
 .payment{
     display: flex;
-    justify-content: space-between;
+    height: 44px;
 }
 .simple{
-    margin: 10em;
+    margin-left: 10em;
+    margin-top: 12em;
+    margin-bottom: 2em;
     line-height: 25px;
 }
 .simple h1{
@@ -186,4 +210,561 @@
 }
 .simple p{
     font-size: large;
+}
+.one-card{
+    display: flex;
+    align-items: center;
+    margin-right: 7em;
+    
+}
+.one-bank-account{
+    display: flex;
+    align-items: center;
+    margin-right: 4em;
+    
+}
+.one-bank-transfer{
+    display: flex;
+    align-items: center;
+    margin-right: 4.1em;
+    
+}
+.one-ussd{
+    display: flex;
+    align-items: center;
+    margin-right: 7em;
+    
+}
+
+.two{
+    display: flex;
+    align-items: center;
+}
+.mark{
+    background-color: rgb(240, 255, 244); 
+    border-radius: 4px;
+    width: 25px;
+    height: 35px; 
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 5px;
+     
+}
+.mark-collect {
+    background-color: rgb(240, 255, 244); 
+    
+    border-radius: 4px;
+    width: 26px;
+    height: 35px; 
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.find-out{
+    display: flex;
+    
+    
+}
+.find-out .circle{
+    margin-top: 13px;
+
+}
+.circle{
+    border: solid rgb(11, 180, 11);
+    border-radius: 50%;
+    height: 15px;
+    align-items: center;
+
+}
+.circle img{
+    display: flex;
+
+}
+.api-quickstart{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+.api-quickstart h5{
+    font-size: medium;
+    font-weight: lighter;
+    color: rgb(11, 180, 11);
+}
+.api-quickstart .circle{
+    margin-left: 8px;
+    margin-right: 10px;
+}
+.find-out h5{
+    font-size: medium;
+    font-weight: lighter;
+    color: rgb(11, 180, 11);
+    padding-left: 8px;
+    margin-top: 10px;
+
+}
+.build-image-section{
+    margin-top: 10em;
+    display: flex;
+}
+.build-section{
+    margin-left: 10em;
+    width: 35%;
+}
+.build-section h2{
+    font-size: 33px;
+    margin-top: 15px;
+}
+.build-section p{
+    font-size: large;
+    
+}
+.image-security-section{
+    display: flex;
+}
+.image-section{
+    margin: 60px
+}
+.build{
+   display: flex;
+   align-items: center;
+}
+.build-container{
+    width: 95%;
+}
+.build h4{
+    font-weight: lighter;
+    margin-bottom: 0%;
+    margin-top: 0%
+ }
+ .video{
+     margin-left: 5em;
+     margin-top: 6em;
+ }
+ .protect h2{
+     font-size: 33px;
+ 
+   
+}
+.protect{
+    width: 75%;
+
+}
+.protect p{
+    font-size: large;
+    font-weight: lighter;
+}
+ .security{
+     margin-left: 4em;
+     margin-top: 6.5em;
+     
+ }  
+ .detailed{
+     width: 72%;
+     margin-top: 4em;
+    
+ }
+ .detailed h2{
+     font-size: 33px
+ }
+ .detailed p{
+    font-size: large;
+    font-weight: lighter;
+    
+}
+.features-section{
+    background-image: url(/paystack/assets/paystack\ background2.png)  ;
+    background-size: cover; 
+   
+}
+.trusted{
+    padding-top: 8em;
+    margin-left: 10em;
+    width: 40%;
+}
+.trusted h2{
+    font-size: 38px;
+
+}
+.trusted p{
+    font-size: 17px;
+ 
+}
+.businesses{
+    display: flex;
+    justify-content: space-evenly;
+}
+.global-brands{
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 10em;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    margin-right: 30px;
+    padding-left: 35px;
+    width: 40%;
+    padding-top: 50px;
+}
+.entrepreneurs{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    margin-right: 30px;
+    padding-left: 35px;
+    width: 40%;
+    padding-top: 50px;
+}
+.large-organizations{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    margin-right: 130px;
+    padding-left: 35px;
+    width: 40%;
+    padding-top: 50px;
+    
+}
+.learn-more{
+    display: flex; 
+    align-items: top;
+}
+.learn-more h5{
+   margin-top: 0%;
+   margin-left: 10px;
+   font-size: 15px;
+   font-weight: lighter;
+}
+.global-brands h3{
+    width: 50%;
+    font-size: 21px;
+
+
+}
+.global-brands p{
+    font-size: 15px;
+    width: 95%;
+    padding-bottom: 20px ;
+}
+.entrepreneurs h3{
+    width: 50%;
+    font-size: 21px;
+}
+.entrepreneurs p{
+    font-size: 15px;
+    width: 95%;
+}
+.large-organizations pre{
+    width: 55%;
+    font-size: 18px;
+    margin-right: 0;
+}
+.large-organizations p{
+    font-size: 15px;
+    width: 91%;
+}
+.sponsors-section{
+    margin: 10em;
+
+}
+
+.sponsor-info h2{
+    font-size: 38px;
+    width: 50%;
+}
+.sponsor-info p{
+    font-size: 17px;
+    width: 45%;
+  
+}
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+        
+}
+.logo{
+    display: flex;
+    align-items: center;
+    height: 28px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+
+
+}
+.logo img{
+    max-height: 100%;
+   
+}
+.partners-section{
+    margin-left: 10em;
+   
+}
+.partner-head{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+}
+.partner-head-middle{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.partners-info{
+    display: flex;
+    margin-top: 60px;
+    margin-right: 9em;
+    padding-bottom: 180px;
+
+}
+
+.partner-info{
+    width: 95%;
+}
+.partner-info p{
+    font-size: 14px;
+    line-height: 30px;
+}
+.partners-section{
+    background-image: url(/paystack/assets/paystack\ background3.png);
+    max-height: 900px;
+    max-width: 95%;
+    margin-left: 0%;
+    padding-left: 9em;
+    padding-top: 6em;
+    
+}
+
+.backed{
+    width: 49%;
+    
+}
+
+.backed h2{
+  font-size: 40px;
+  margin-bottom: 5px;
+  
+  
+}
+.backed p{
+    font-size: 19px;
+    font-weight: lighter;
+    margin-top: 0%;
+}
+.stripe{
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 25px;
+    padding-left: 40px;
+    width: 115%;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    
+}
+.visa{
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 25px;
+    padding-left: 40px;
+    width: 115%;
+    padding-right: 20px;
+    
+}
+.ycombinator{
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 40px;
+    width: 105%;
+    padding-right: 50px;
+}
+.partner-head-image img{
+    max-height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.partner-head-info h4{
+    margin-bottom: 0%;
+    
+}
+.partner-head-info p{
+    font-size: 11px;
+    margin-top: 0%;
+    line-height: 15px;
+}
+.try-paystack-section{
+    padding-left: 9em;
+    background-image: url(/paystack/assets/paystack\ background4.png);
+    max-width: 90%;
+    margin-bottom: 50px;
+    min-height: 450px;
+    
+    
+}
+ .try-paystack-section button{
+    width: 14em;
+    box-shadow: none;
+    background-color: green;
+    color: white;
+    height: 50px;
+    font-size: medium;
+    border-radius: 5px;
+    border: none;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+}
+
+.try{
+    display: flex;
+   
+}
+.try-paystack-section h4{
+    margin-top: 0%;
+    padding-top: 180px;
+    font-size: larger;
+    font-weight: lighter;
+}
+.try-paystack-section h2{
+    margin-top: 0%;
+    font-size: 38px;
+    width: 42%;
+    margin-right: 200px;
+}
+.footer-section{
+    padding-left: 15px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 9em;
+    margin-right: 20em;
+    margin-bottom: 75px;
+}
+.why h4{
+    font-size: 19px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+   
+}
+.pricing h4{
+    font-size: 19px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+.devs h4{
+    font-size: 19px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+.about h4{
+    font-size: 19px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.why p{
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 29px;
+   
+}
+.pricing p{
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 15px;
+}
+.devs p{
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 15px;
+}
+.about p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.pricing {
+    margin-right: 45px;
+    
+}
+.devs {
+    margin-right: 35px;
+    
+}
+.line{
+    width: 80%;
+    opacity: 0.2;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-left: 9em;
+    margin-right: 20em;
+    margin-bottom: 75px;
+
+}
+.footer-contact h4{
+    font-size: 19px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+.states1 h4{
+    font-size: 19px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+.states2 h4{
+    font-size: 19px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+.states3 h4{
+    font-size: 19px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+.footer-contact p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.states1 p{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 0%;
+}
+.accra{
+    margin-top: 50px;
+}
+.states2 p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.states3 p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.email{
+    color:rgb(36, 146, 215);
+    margin-bottom: 0%;
+}
+.number{
+    color:rgb(36, 146, 215);
+    margin: 0%
+    
+}
+.fb-box{
+    background-color: grey;
+    
+}
+.social-icons{
+    
+}
+.social-icons svg{
+    padding-right: 1em;
 }
